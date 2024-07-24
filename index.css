@@ -1,0 +1,119 @@
+.foodImg {
+    width: 15vw;
+    height: 15vw;
+    border-top-right-radius: 20%;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+body {
+    -ms-overflow-style: none;
+}
+.conatinerBox {
+    background-image: url('img1.jpg');
+    height: 100vh;
+    width: 100%;
+
+    background-size: cover;
+    margin: 0%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.mainBox {
+    display: flex;
+    flex-direction: column;
+    padding: 0%;
+    margin: 0%;
+    width: 100vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.containerBoxSub {
+    background-color: rgb(243, 84, 110, 0.5);
+    background-size: cover;
+
+    color: #ffffff;
+    width: 50vw;
+    margin: 5vw;
+    padding: 1vw;
+}
+.foodBox {
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    margin: 1vw;
+    padding: 1.5vw;
+    border-bottom-left-radius: 20%;
+    border-top-right-radius: 20%;
+}
+.containerBox2 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    background-image: linear-gradient(
+        to left,
+        rgb(245, 192, 95),
+        rgb(221, 123, 169)
+    );
+
+    align-items: center;
+    text-align: center;
+    width: 100vw;
+    justify-content: center;
+}
+.navItems {
+    margin: 2vw;
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+}
+.footBoxHead {
+    font-size: 1.6vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footBoxpara {
+    font-size: 1vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.orderBtn {
+    background-color: #e2dede;
+    margin: 5vw;
+    width: 10vw;
+    height: 3vw;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 10vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.2vw;
+}
+.boxtext {
+    opacity: 1;
+}
+.navBar {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5vw;
+    height: 5vw;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+}
+.orderHead {
+    color: #ffffff;
+}
